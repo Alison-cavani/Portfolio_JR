@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio| Alison Cleiton Cavani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <div class="foto-container">
+                    <img src="imagens/foto.jpg" alt="Minha foto" class="minha-foto">
+               </div>
+                <li><a href="#sobre">Sobre</a><li>   
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Olá, eu sou <span class="destaque">Alison Cleiton Cavani</span></h1>
+            <p class="tagline">Desenvolvedor Júnior | Analista de Sistemas</p>
+            <p class="descricao">Transformo ideias em código e problemas em soluções.</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <div class="sobre-content">
+                <p>Sou um desenvolvedor apaixonado por tecnologia e resolução de problemas. Estou em transição de carreira e já construí , projetos práticos.</p>
+                <div class="skills">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Git/GitHub</span>
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <!-- Cada projeto será adicionado aqui -->
+                <div class="projeto-card">
+                    <h3>Em breve</h3>
+                    <p>Primeiro projeto em andamento</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alison Cleiton Cavani. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
